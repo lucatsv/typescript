@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #container {
+            background-color: lightblue;
+            height: 100px;            
+        }
+
+        .rectangle {
+            position: absolute;
+            z-index: 1090;
+            border: 2px dashed blueviolet;
+        }
+
+        .selected {
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+    <div id="container">
+        <div class="li-item" style="position:absolute;top:50px;left:100px">Test 1</div>
+        <div class="li-item" style="position:absolute;top:25px;left:40px">Test 2</div>
+        <div class="li-item" style="position:absolute;top:15px;left:50px">Test 3</div>
+        <div class="li-item" style="position:absolute;top:60px;left:27px">Test 4</div>
+    </div>
+    
+
+    <script src="src/index.js"></script>
+</body>
+</html>
